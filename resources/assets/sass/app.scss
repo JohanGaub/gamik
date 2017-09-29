@@ -7,3 +7,9 @@
 
 // Bootstrap
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Bootstrap Node
+@import "node_modules/bootstrap-sass/scss";
+
+// CSS admin-home
+@import "admin-home";

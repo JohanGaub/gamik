@@ -6,7 +6,9 @@
 
         <div class="row d-flex justify-content-around">
 
-            <div class="card" style="width: 25rem;">
+            <div class="cardtry">
+
+            <div class="card">
                 <img class="card-img-top" src="../images/games.jpg" alt="games image">
                 <div class="card-body">
                     <h4 class="card-title">Games</h4>
@@ -21,7 +23,9 @@
                 </div>
             </div>
 
-            <div class="card" style="width: 25rem;">
+        </div>
+
+            <div class="card">
                 <img class="card-img-top" src="../images/platforms.jpg" alt="games image">
                 <div class="card-body">
                     <h4 class="card-title">Platforms</h4>
@@ -36,7 +40,7 @@
                 </div>
             </div>
 
-            <div class="card" style="width: 25rem;">
+            <div class="card">
                 <img class="card-img-top" src="../images/categories.png" alt="games image">
                 <div class="card-body">
                     <h4 class="card-title">Categories</h4>
@@ -56,7 +60,7 @@
 
         <div class="row d-flex justify-content-around">
 
-            <div class="card" style="width: 25rem;">
+            <div class="card">
                 <img class="card-img-top" src="../images/users.jpeg" alt="games image">
                 <div class="card-body">
                     <h4 class="card-title">Users</h4>
