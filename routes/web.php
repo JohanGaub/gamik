@@ -20,23 +20,23 @@ Route::get('/', function () {
 Route::get('comments', 'CommentController@create');
 Route::post('comments', 'CommentController@store');
 
-Route::get('backoffice', 'BackOfficeController@index');
+Route::get('admin', 'AdminController@index');
 
-//Route::resource('backoffice.category', 'BackOfficeController', ['only' => 'index', 'create', 'edit', 'update', 'delete']);
-//Route::resource('backoffice.platform', 'BackOfficeController', ['only' => 'index', 'create', 'edit', 'update', 'delete']);
-//Route::resource('backoffice.game', 'BackOfficeController', ['only' => 'index', 'create', 'edit', 'update', 'delete']);
+//Route::resource('admin.category', 'AdminController', ['only' => 'index', 'create', 'edit', 'update', 'delete']);
+//Route::resource('admin.platform', 'AdminController', ['only' => 'index', 'create', 'edit', 'update', 'delete']);
+//Route::resource('admin.game', 'AdminController', ['only' => 'index', 'create', 'edit', 'update', 'delete']);
 
-Route::get('backoffice/platform/index', 'BackOfficeController@platformIndex');
-Route::get('backoffice/platform/create', 'BackOfficeController@platformCreate');
-Route::post('backoffice/platform/store', 'BackOfficeController@platformStore');
-Route::patch('backoffice/platform/update', 'BackOfficeController@platformUpdate');
-Route::patch('backoffice/platform/delete', 'BackOfficeController@platformDelete');
+Route::get('admin/platform/index', 'AdminController@platformIndex');
+Route::get('admin/platform/create', 'AdminController@platformCreate');
+Route::post('admin/platform/store', 'AdminController@platformStore');
+Route::patch('admin/platform/update', 'AdminController@platformUpdate');
+Route::patch('admin/platform/delete', 'AdminController@platformDelete');
 
-Route::get('backoffice/game/index', 'BackOfficeController@gameIndex');
-Route::get('backoffice/game/create', 'BackOfficeController@gameCreate');
-Route::post('backoffice/game/store', 'BackOfficeController@gameStore');
-Route::patch('backoffice/game/update', 'BackOfficeController@gameUpdate');
-Route::patch('backoffice/game/delete', 'BackOfficeController@gameDelete');
+Route::get('admin/game/index', 'AdminController@gameIndex');
+Route::get('admin/game/create', 'AdminController@gameCreate');
+Route::post('admin/game/store', 'AdminController@gameStore');
+Route::patch('admin/game/update', 'AdminController@gameUpdate');
+Route::patch('admin/game/delete', 'AdminController@gameDelete');
 
 
 

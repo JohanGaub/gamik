@@ -1,4 +1,4 @@
-@extends('template')
+@extends('admin-template')
 @extends('layout.navbar')
 @section('content')
 @endsection

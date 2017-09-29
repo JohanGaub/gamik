@@ -17,10 +17,7 @@
             <li class="nav-item">
                 <a class="nav-link " href="#">Platforms</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link " href="#">Users</a>
-            </li>
         </ul>
     </div>
 </nav>
-@yield('content')
+<?php echo $__env->yieldContent('content'); ?>
