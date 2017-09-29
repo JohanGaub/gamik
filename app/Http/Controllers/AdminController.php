@@ -13,7 +13,7 @@ class AdminController extends Controller
      */
     public function index()
     {
-        return view('backoffice-home');
+        return view('admin-home');
     }
 
     /**
