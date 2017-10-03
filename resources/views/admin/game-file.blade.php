@@ -5,10 +5,8 @@
 
     <div class="game-file">
         <div class="d-flex justify-content-center">
-
             <form class="col-sm-3">
-                <h1 class="text-center">Game File</h1>
-
+                <h2 class="text-center">Game File</h2>
                 <div class="form-group">
                     <label for="FormControlFile1">Image</label>
                     <input type="file" class="form-control-file" id="FormControlFile1">
@@ -61,10 +59,7 @@
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
-
         </div>
-
-
         <div class="row">
             <div class="col-sm-12">
                 <a><i class="fa fa-arrow-circle-left fa-3x" aria-hidden="true"></i></a>
@@ -73,8 +68,5 @@
                 <a><i class="fa fa-home fa-3x" aria-hidden="true"></i></a>
             </div>
         </div>
-
-
     </div>
-
 @endsection

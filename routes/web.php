@@ -26,7 +26,7 @@ Route::get('admin', 'AdminController@index')->name('home-admin');
 //Route::resource('admin.platform', 'AdminController', ['only' => 'index', 'create', 'edit', 'update', 'delete']);
 //Route::resource('admin.game', 'AdminController', ['only' => 'index', 'create', 'edit', 'update', 'delete']);
 
-Route::get('admin/platform/index', 'AdminController@platformIndex');
+Route::get('admin/platform_category/index', 'AdminController@platformCategoryIndex');
 Route::get('admin/platform/create', 'AdminController@platformCreate');
 Route::post('admin/platform/store', 'AdminController@platformStore');
 Route::patch('admin/platform/update', 'AdminController@platformUpdate');

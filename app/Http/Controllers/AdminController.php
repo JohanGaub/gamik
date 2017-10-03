@@ -22,7 +22,7 @@ class AdminController extends Controller
      */
     public function gameIndex()
     {
-        return view('admin.index-games');
+        return view('admin.game-index');
     }
 
 
@@ -36,9 +36,9 @@ class AdminController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function categoryCreate()
+    public function platformCategoryIndex()
     {
-        return view('category');
+        return view('admin.platform-category-index');
     }
 
     /**
