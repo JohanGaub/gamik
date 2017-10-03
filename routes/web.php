@@ -20,7 +20,7 @@ Route::get('/', function () {
 Route::get('comments', 'CommentController@create');
 Route::post('comments', 'CommentController@store');
 
-Route::get('admin', 'AdminController@index');
+Route::get('admin', 'AdminController@index')->name('home-admin');
 
 //Route::resource('admin.category', 'AdminController', ['only' => 'index', 'create', 'edit', 'update', 'delete']);
 //Route::resource('admin.platform', 'AdminController', ['only' => 'index', 'create', 'edit', 'update', 'delete']);

@@ -13,7 +13,22 @@ class AdminController extends Controller
      */
     public function index()
     {
-        return view('admin-home');
+        return view('admin.home');
+    }
+
+    /**
+     * Admin Game List
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function gameIndex()
+    {
+        return view('admin.index-games');
+    }
+
+
+    public function gameCreate()
+    {
+        return view('admin.game-file');
     }
 
     /**

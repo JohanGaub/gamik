@@ -1,12 +1,32 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);.card-img-top {
-  max-width: 15rem;
+.card {
+  width: 25rem;
+  margin-top: 3rem;
 }
 
-.ESSAI {
-  background-color: blue;
+.card-img-top {
+  max-width: 20rem;
+  margin: auto;
 }
 
-.ESSAI2 {
-  font-size: 30px;
+.card-users {
+  width: 40rem;
+}
+
+.index-game {
+  margin: 3rem 3rem 0 3rem;
+}
+
+.game-file {
+  margin: 3rem;
+}
+
+#summary-game {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  border: 1px solid black;
 }
 
