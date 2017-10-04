@@ -52,7 +52,15 @@ class AdminController extends Controller
     }
 
 
+    public function userIndex()
+    {
+        return view('admin.user-index');
+    }
 
+    public function userCreate()
+    {
+        return view('admin.user-file');
+    }
 
 
 

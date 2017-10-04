@@ -38,5 +38,12 @@ Route::post('admin/game/store', 'AdminController@gameStore');
 Route::patch('admin/game/update', 'AdminController@gameUpdate');
 Route::patch('admin/game/delete', 'AdminController@gameDelete');
 
+Route::get('admin/user/index', 'AdminController@userIndex');
+Route::get('admin/user/create', 'AdminController@userCreate');
+
+
+Route::get('home', 'UserController@homeIndex');
+
+
 
 
