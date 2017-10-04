@@ -4,5 +4,5 @@
 	bare = false
 	logallrefupdates = true
 [remote "origin"]
-	url = https://github.com/Topikana/projetTestLaravel.git
+	url = https://github.com/Topikana/projet-test-laravel.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
