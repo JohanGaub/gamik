@@ -3,7 +3,7 @@
     <div class="game-file">
         <div class="d-flex justify-content-center">
             <form class="col-sm-3">
-                <h1 class="text-center">Game File</h1>
+                <h2 class="text-center">Game File</h2>
                 <div class="form-group">
                     <label for="FormControlFile1">Image</label>
                     <input type="file" class="form-control-file" id="FormControlFile1">

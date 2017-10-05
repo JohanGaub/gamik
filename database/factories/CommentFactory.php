@@ -1,5 +1,7 @@
 <?php
 
+use App\Game;
+use App\User;
 use Faker\Generator as Faker;
 
 /*
@@ -13,15 +15,11 @@ use Faker\Generator as Faker;
 |
 */
 
-$factory->define(App\User::class, function (Faker $faker) {
-    static $password;
+$factory->define(App\Comment::class, function (Faker $faker) {
 
     return [
-        'firstname' => $faker->firstName,
-        'lastname' => $faker->lastName,
-        'username' => $faker->name,
-        'email' => $faker->unique()->safeEmail,
-        'password' => $password ?: $password = bcrypt('secret'),
-        'remember_token' => str_random(10),
+        'message' => $faker->sentence(),
+        'user_id' => factory(User::class)->create()->id,
+        'game_id' => factory(Game::class)->create()->id,
     ];
 });
